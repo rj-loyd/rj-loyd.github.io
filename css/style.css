@@ -8,14 +8,14 @@ body {
 }
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #ff6b6b;
   text-align: left;
   /*min-width: 500px;*/
 }
 
 header {
   font-family: 'Nunito Sans', sans-serif;
-  color: #fff;
+  color: #f7fff7;
   min-height: 50vh;
   display: flex;
 }
@@ -45,7 +45,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #1a535c;
   padding: 10px 0px 10px 10px;
 }
 
@@ -63,7 +63,7 @@ img {
 }
 
 .bio {
-  color: #ffffff;
+  color: #f7fff7;
   font-size: 24px;
   font-family: 'Nunito Sans', sans-serif ;
 }
@@ -76,9 +76,9 @@ img {
 
 .myButton {
   border-radius: 28px;
-  border: 1px solid #ffffff;
+  border: 1px solid #f7fff7;
   cursor: pointer;
-  color: #ffffff;
+  color: #f7fff7;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
@@ -86,7 +86,7 @@ img {
 }
 
 .myButton:hover {
-  background-color:#e69708;
+  background-color:#4ecdc4;
 }
 
 .myButton:active { position:relative; top:1px; }
@@ -149,6 +149,10 @@ img {
 
 footer {
   margin-top: 44px;
+}
+
+a{
+  color: #4ecdc4;
 }
 /*Telling the browser to ask if the browser is 700px wide or smaller and if so change the grid columns to that one column takes up one fraction of the available space*/
 @media all and (max-width:700px) {
